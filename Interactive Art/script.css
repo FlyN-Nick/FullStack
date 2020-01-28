@@ -1,0 +1,28 @@
+#tl
+{
+	text-align: center;
+	color: #EEAD51;
+}
+body
+{
+  background-image: url('https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+canvas
+{
+  background: rgba(194, 207, 197, 0.3);
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: block;
+}
+#info
+{
+  text-align: center;
+  color: #FFFFFF;
+}
+#infoLink
+{
+  color: #8080FF;
+}
