@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning to use Canvas</title>
+  </head>
+  <body>
+    <h1 id="tl">I'm lEaRnInG!</h1>   
+    <script type="text/javascript">
+      let thingToSend = {'items': 20}
+
+      fetch('http://localhost:42069/thisIsAPost', 
+      {
+        method: 'post',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(thingToSend)
+      })
+      .then(res => res.text())
+      .then(res => console.log(res))
+    </script>
+  </body>
+</html>

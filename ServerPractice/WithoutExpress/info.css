@@ -1,0 +1,40 @@
+body
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+/*#header
+{
+	text-align: center;
+}
+#back
+{
+	text-align: center;
+}
+#paragraph
+{
+	text-align: center;
+}*/
+body
+{
+  background-image: url('https://i.kym-cdn.com/entries/icons/original/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#back
+{
+	color: #8080FF;
+}
+code
+{
+	text-align: left;
+}
+pre 
+{
+	overflow: auto;
+}
+pre > code 
+{
+  display: block;
+  word-wrap: normal;
+}
