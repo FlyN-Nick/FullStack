@@ -1,0 +1,23 @@
+{
+  "name": "chatting-back-end",
+  "version": "1.0.0",
+  "description": "A anonymous chatting app to learn full stack web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "FlyN Nick",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.16",
+    "validator": "^13.0.0"
+  },
+  "engines": {
+    "node": "12.14.x",
+    "npm": "6.x"
+  }
+}
